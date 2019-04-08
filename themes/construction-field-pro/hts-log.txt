@@ -1,0 +1,79 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 11 Jan 2019 00:02:55 at http://demo.acmethemes.com/construction-field-pro/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://demo.acmethemes.com/construction-field-pro/ -O1 "D:\construction-field-pro" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:10:21	Warning: 	Retry after error -4 (Incorrect length (400455 Bytes, 468761 expected)) at link demo.acmethemes.com/construction-field-pro/wp-content/themes/construction-field-pro/assets/img/bobcat.jpg (from demo.acmethemes.com/construction-field-pro/)
+00:10:53	Warning: 	Retry after error -4 (Incorrect length (130862 Bytes, 404937 expected)) at link demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306.jpeg (from demo.acmethemes.com/construction-field-pro/)
+00:10:54	Warning: 	Retry after error -4 (Incorrect length (266680 Bytes, 343389 expected)) at link demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-workers-921224_1920.jpg (from demo.acmethemes.com/construction-field-pro/)
+00:11:00	Warning: 	Retry after error -4 (Incorrect length (931397 Bytes, 999497 expected)) at link demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/light-house.jpg (from demo.acmethemes.com/construction-field-pro/)
+00:11:07	Warning: 	Retry after error -4 (Incorrect length (599936 Bytes, 713058 expected)) at link demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-3124294_1920-1.jpg (from demo.acmethemes.com/construction-field-pro/)
+00:11:07	Warning: 	Retry after error -4 (Incorrect length (673488 Bytes, 743817 expected)) at link demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/park-2693078_1920.jpg (from demo.acmethemes.com/construction-field-pro/)
+00:11:21	Warning: 	File not parsed, looks like binary: demo.acmethemes.com/construction-field-pro/wp-content/themes/construction-field-pro/assets/library/bootstrap/fonts/glyphicons-halflings-regular.woff2
+00:11:22	Warning: 	File not parsed, looks like binary: demo.acmethemes.com/construction-field-pro/wp-content/themes/construction-field-pro/assets/library/Font-Awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+00:11:22	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.acmethemes.com/construction-field-pro/wp-content/themes/construction-field-pro/assets/img/bobcat.jpg (from demo.acmethemes.com/construction-field-pro/)
+00:11:22	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=25
+00:11:22	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=25 to http://demo.acmethemes.com/construction-field-pro/about/
+00:11:22	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=27
+00:11:22	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=27 to http://demo.acmethemes.com/construction-field-pro/contact/
+00:11:24	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=1
+00:11:24	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=1 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/hello-world/
+00:11:24	Error: 	"Method Not Allowed" (405) at link demo.acmethemes.com/construction-field-pro/xmlrpc.php (from demo.acmethemes.com/construction-field-pro/blog/2018/04/24/hello-world/)
+00:11:36	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=29
+00:11:36	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=29 to http://demo.acmethemes.com/construction-field-pro/services/
+00:11:36	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=243
+00:11:36	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=243 to http://demo.acmethemes.com/construction-field-pro/our-project/
+00:11:39	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=113
+00:11:39	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=113 to http://demo.acmethemes.com/construction-field-pro/apartment-house/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=89
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=89 to http://demo.acmethemes.com/construction-field-pro/architectural-design/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=103
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=103 to http://demo.acmethemes.com/construction-field-pro/big-bugets-for-startup/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=93
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=93 to http://demo.acmethemes.com/construction-field-pro/civil-works/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=91
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=91 to http://demo.acmethemes.com/construction-field-pro/electrical-systems/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=82
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=82 to http://demo.acmethemes.com/construction-field-pro/general-contracting/
+00:11:40	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-3124294_1920-1.jpg (from demo.acmethemes.com/construction-field-pro/)
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=135
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=135 to http://demo.acmethemes.com/construction-field-pro/jhon-doe/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=139
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=139 to http://demo.acmethemes.com/construction-field-pro/laurel-lance/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=142
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=142 to http://demo.acmethemes.com/construction-field-pro/why-you-join/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=144
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=144 to http://demo.acmethemes.com/construction-field-pro/give-back-to-community/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=146
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=146 to http://demo.acmethemes.com/construction-field-pro/meet-professionals/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=158
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=158 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/industrial-building/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=188
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=188 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/caring-for-construction/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=186
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=186 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/young-engineers/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=181
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=181 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/prepare-for-room-painting/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=179
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=179 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/top-building-in-dubai/
+00:11:40	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=175
+00:11:40	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=175 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/long-bridge/
+00:11:43	Warning: 	Found for demo.acmethemes.com/construction-field-pro/wp-admin/
+00:11:43	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/wp-admin/ to http://demo.acmethemes.com/construction-field-pro/wp-login.php?redirect_to=http%3A%2F%2Fdemo.acmethemes.com%2Fconstruction-field-pro%2Fwp-admin%2F&reauth=1
+00:11:44	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=171
+00:11:44	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=171 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/highway/
+00:11:44	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=167
+00:11:44	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=167 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/tunnel/
+00:11:44	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.acmethemes.com/construction-field-pro/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.acmethemes.com%2Fconstruction-field-pro%2Fblog%2F2018%2F04%2F24%2Ftunnel%2F&format=xml (from demo.acmethemes.com/construction-field-pro/blog/2018/04/24/tunnel/)
+00:11:44	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.acmethemes.com/construction-field-pro/blog/2018/04/24/skyscapper/feed/ (from demo.acmethemes.com/construction-field-pro/blog/2018/04/24/skyscapper/)
+00:11:44	Warning: 	Moved Permanently for demo.acmethemes.com/construction-field-pro/?p=165
+00:11:44	Warning: 	File has moved from demo.acmethemes.com/construction-field-pro/?p=165 to http://demo.acmethemes.com/construction-field-pro/blog/2018/04/24/skyscapper/
+00:11:44	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.acmethemes.com/construction-field-pro/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.acmethemes.com%2Fconstruction-field-pro%2Fblog%2F2018%2F04%2F24%2Fskyscapper%2F (from demo.acmethemes.com/construction-field-pro/blog/2018/04/24/skyscapper/)
+00:11:45	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.acmethemes.com/construction-field-pro/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.acmethemes.com%2Fconstruction-field-pro%2Fblog%2F2018%2F04%2F24%2Fskyscapper%2F&format=xml (from demo.acmethemes.com/construction-field-pro/blog/2018/04/24/skyscapper/)
+00:11:47	Error: 	"Not Found" (404) at link demo.acmethemes.com/construction-field-pro/wp-admin/&reauth=1 (from demo.acmethemes.com/construction-field-pro/wp-login.php?redirect_to=http%3A%2F%2Fdemo.acmethemes.com%2Fconstruction-field-pro%2Fwp-admin%2F%26reauth=1)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 52 seconds : 243 links scanned, 202 files written (15116612 bytes overall) [13516759 bytes received at 25407 bytes/sec], 2067339 bytes transferred using HTTP compression in 41 files, ratio 17%, 5.6 requests per connection
+(2 errors, 66 warnings, 0 messages)

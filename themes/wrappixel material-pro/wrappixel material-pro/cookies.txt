@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+wrappixel.com	TRUE	/	FALSE	1999999999	PHPSESSID	575c08854439ffb9ea6737b793f67d53
+.wrappixel.com	TRUE	/	FALSE	1999999999	__cfduid	d1003583727d7329cfc0b83b46b3ad5281552378897
+.datatables.net	TRUE	/	FALSE	1999999999	__cfduid	df7d31fd2f5b0207cbdf8d88178f48ae91552378966
+wrappixel.com	TRUE	/	FALSE	1999999999	_wpas_session	131e5c465e8d1b625c2908f81a39a093%7C%7C1552380624%7C%7C1552380264
+wrappixel.com	TRUE	/	FALSE	1999999999	wpSGCacheBypass	0
+
