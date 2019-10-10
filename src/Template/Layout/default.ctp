@@ -434,10 +434,9 @@
                                             <li id="menu-item-317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-317">
                                                 <a href="https://www.acmethemes.com/themes/construction-field-pro">Construction Field Pro</a>
                                             </li>
-                                            <li id="menu-item-318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318"><a href="https://www.acmethemes.com/themes/online-shop-pro/">Online Shop Pro</a></li>
-                                            <li id="menu-item-319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319"><a href="https://www.acmethemes.com/themes/medical-circle-pro/">Medical Circle Pro</a></li>
-                                            <li id="menu-item-320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-320"><a href="https://www.acmethemes.com/themes/education-base-pro/">Education Base Pro</a></li>
-                                            <li id="menu-item-321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-321"><a href="https://www.acmethemes.com/themes/event-star-pro/">Event Star Pro</a></li>
+                                            <li id="menu-item-318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318"><a href="http://kingdomnvhai.info/" title="KINGDOM NVHAI">NEWS KINGDOM NVHAI</a></li>
+                                            <li id="menu-item-319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319"><a href="http://datealive.kingdomnvhai.info/">DATE A LIVE</a></li>
+                                            <!-- <li id="menu-item-321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-321"><a href="https://www.acmethemes.com/themes/event-star-pro/">KDPLAYBACK</a></li> -->
                                         </ul>
                                     </div>
                                     </aside>

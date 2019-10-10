@@ -60,6 +60,171 @@
 	</section>
 </aside>
 
+<aside id="construction_field_posts_col-3" class="widget widget_construction_field_posts_col">
+	<section id="construction_field_posts_col-3" class="at-widgets acme-col-posts ">
+		<div class="container">
+			<div class='at-widget-title-wrapper'>
+				<div class='at-cat-color-wrap-9'>
+					<h2 class="widget-title init-animate zoomIn"><span>Bài viết mới nhất</span></h2>
+				</div>
+			</div>
+			<div class="featured-entries-col column">
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-188"
+						class="init-animate zoomIn post-188 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title">NEWS KINGDOM NVHAI</h3>
+								</div>
+								<div class="details"> Laravel 5.5 viết về 4 chủ đề: Website - Mạng Xã Hội, Anime - Manga, Game và Thủ Thuật IT.</div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-186"
+						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
+								</div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-186"
+						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
+								</div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-186"
+						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
+								</div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-186"
+						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
+								</div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-181"
+						class="init-animate zoomIn post-181 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-914931-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-914931-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> DATE A LIVE </h3>
+								</div>
+								<div class="details"> Wordpress 4.9.x nói về Anime Date a live </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+			</div>
+			<!--featured entries-col-->
+			<div class="row">
+				<div class="at-btn-wrap at-view-all-widget"><a href="blog/index.html"
+						class="init-animate zoomIn btn btn-primary outline-outward banner-btn">View More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</aside>
+
+
 <aside id="construction_field_gallery-3" class="widget widget_construction_field_gallery">
 	<section id="construction_field_gallery-3" class="at-widgets acme-gallery">
 		<div class="full-width-container">
@@ -70,7 +235,7 @@
 				<div class="at-gallery-item  col-xs-12 col-md-3">
 					<div class="gallery-inner-item init-animate zoomIn">
 						<div class="at-bottom-lower">
-							<h3> Skyfall Tower </h3>
+							<h3> PHP </h3>
 							<a class="image-gallery-widget" href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/glass-items-3339972_1920.jpg">
 								<i class="fa fa-search gallery-button primary-bg"></i>
 							</a>
@@ -83,7 +248,7 @@
 				<div class="at-gallery-item  col-xs-12 col-md-3">
 					<div class="gallery-inner-item init-animate zoomIn">
 						<div class="at-bottom-lower">
-							<h3>Industry </h3>
+							<h3> JavaScript </h3>
 							<a class="image-gallery-widget"
 								href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/construction-site-3124294_1920-1.jpg">
 								<i class="fa fa-search gallery-button primary-bg"></i>
@@ -97,7 +262,7 @@
 				<div class="at-gallery-item  col-xs-12 col-md-3">
 					<div class="gallery-inner-item init-animate zoomIn">
 						<div class="at-bottom-lower">
-							<h3>City </h3>
+							<h3> Java </h3>
 							<a class="image-gallery-widget"
 								href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/park-2693078_1920.jpg">
 								<i class="fa fa-search gallery-button primary-bg"></i>
@@ -111,7 +276,7 @@
 				<div class="at-gallery-item  col-xs-12 col-md-3">
 					<div class="gallery-inner-item init-animate zoomIn">
 						<div class="at-bottom-lower">
-							<h3>Apartment House </h3>
+							<h3> Tool, GIT GUI </h3>
 							<a class="image-gallery-widget" href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/construction.jpg">
 								<i class="fa fa-search gallery-button primary-bg"></i>
 							</a>
@@ -124,8 +289,7 @@
 				<div class="at-gallery-item  col-xs-12 col-md-3">
 					<div class="gallery-inner-item init-animate zoomIn">
 						<div class="at-bottom-lower">
-							<h3>
-								Big bugets for startup </h3>
+							<h3> Vừa học vừa chơi </h3>
 							<a class="image-gallery-widget"
 								href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/scaffold-3328434_1920.jpg">
 								<i class="fa fa-search gallery-button primary-bg"></i>
@@ -139,8 +303,7 @@
 				<div class="at-gallery-item  col-xs-12 col-md-3">
 					<div class="gallery-inner-item init-animate zoomIn">
 						<div class="at-bottom-lower">
-							<h3>
-								Light House </h3>
+							<h3> Demo </h3>
 							<a class="image-gallery-widget" href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/light-house.jpg">
 								<i class="fa fa-search gallery-button primary-bg"></i>
 							</a>
@@ -153,8 +316,7 @@
 				<div class="at-gallery-item  col-xs-12 col-md-3">
 					<div class="gallery-inner-item init-animate zoomIn">
 						<div class="at-bottom-lower">
-							<h3>
-								Longest Building </h3>
+							<h3> Tâm sự, kinh nghiệm nghề nghiệp </h3>
 							<a class="image-gallery-widget"
 								href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/architecture-3338007_1920.jpg">
 								<i class="fa fa-search gallery-button primary-bg"></i>
@@ -186,15 +348,16 @@
 	</section>
 </aside>
 
+
 <aside id="construction_field_posts_col-3" class="widget widget_construction_field_posts_col">
 	<section id="construction_field_posts_col-3" class="at-widgets acme-col-posts ">
 		<div class="container">
 			<div class='at-widget-title-wrapper'>
 				<div class='at-cat-color-wrap-9'>
-					<h2 class="widget-title init-animate zoomIn"><span>Các website khác</span></h2>
+					<h2 class="widget-title init-animate zoomIn"><span>Cập nhật thường xuyên</span></h2>
 				</div>
-				<p class="at-subtitle">Ngoài Kawaiicode, KINGDOM NVHAI còn nhiều website khác.<br>
-				Rất mong mọi người sẽ đón xem.</p>
+				<p class="at-subtitle">Những bài viết này sẽ được cập nhật trong tương lai<br>
+				Bài mới cập nhật sẽ được đưa lên đầu tiên. Các bạn hãy chú ý đón xem.</p>
 			</div>
 			<div class="featured-entries-col column">
 				<div class="single-list col-sm-12 col-md-4">
@@ -237,9 +400,81 @@
 							</div>
 							<div class="entry-content ">
 								<div class="entry-header-title">
-									<h3 class="entry-title"> FORTRESS CINEMA </h3>
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
 								</div>
-								<div class="details"> ReactJS website video song song với kênh Youtube. </div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-186"
+						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
+								</div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-186"
+						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
+								</div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4">
+					<article id="post-186"
+						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
+								</div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
 							</div><!-- .entry-content -->
 						</div>
 					</article><!-- #post-## -->
