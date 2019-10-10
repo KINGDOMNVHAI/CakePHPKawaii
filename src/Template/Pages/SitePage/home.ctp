@@ -69,7 +69,7 @@
 				</div>
 			</div>
 			<div class="featured-entries-col column">
-				<div class="single-list col-sm-12 col-md-4">
+				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
 					<article id="post-188"
 						class="init-animate zoomIn post-188 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
 						<div class="content-wrapper">
@@ -87,13 +87,13 @@
 								<div class="entry-header-title">
 									<h3 class="entry-title">NEWS KINGDOM NVHAI</h3>
 								</div>
-								<div class="details"> Laravel 5.5 viết về 4 chủ đề: Website - Mạng Xã Hội, Anime - Manga, Game và Thủ Thuật IT.</div>
+								<div class="details"> Laravel 5.5 viết về 4 chủ đề: Website - Mạng Xã Hội, Anime - Manga, Game và Thủ Thuật IT. Được ra mắt vào năm 2015, đây là trang web đầu tiên của KINGDOM NVHAI.</div>
 							</div><!-- .entry-content -->
 						</div>
 					</article><!-- #post-## -->
 				</div>
 				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4">
+				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
 					<article id="post-186"
 						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
 						<div class="content-wrapper">
@@ -117,7 +117,7 @@
 					</article><!-- #post-## -->
 				</div>
 				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4">
+				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
 					<article id="post-186"
 						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
 						<div class="content-wrapper">
@@ -140,56 +140,11 @@
 						</div>
 					</article><!-- #post-## -->
 				</div>
+
+				<?php foreach ($results as $result): ?>
+
 				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4">
-					<article id="post-186"
-						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-						<div class="content-wrapper">
-							<div class="image-wrap">
-								<!--post thumbnail options-->
-								<div class="post-thumb">
-									<img width="640" height="427"
-										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
-										class="attachment-large size-large wp-post-image" alt=""
-										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
-										sizes="(max-width: 640px) 100vw, 640px" />
-								</div><!-- .post-thumb-->
-							</div>
-							<div class="entry-content ">
-								<div class="entry-header-title">
-									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
-								</div>
-								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
-							</div><!-- .entry-content -->
-						</div>
-					</article><!-- #post-## -->
-				</div>
-				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4">
-					<article id="post-186"
-						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-						<div class="content-wrapper">
-							<div class="image-wrap">
-								<!--post thumbnail options-->
-								<div class="post-thumb">
-									<img width="640" height="427"
-										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
-										class="attachment-large size-large wp-post-image" alt=""
-										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
-										sizes="(max-width: 640px) 100vw, 640px" />
-								</div><!-- .post-thumb-->
-							</div>
-							<div class="entry-content ">
-								<div class="entry-header-title">
-									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
-								</div>
-								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
-							</div><!-- .entry-content -->
-						</div>
-					</article><!-- #post-## -->
-				</div>
-				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4">
+				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
 					<article id="post-181"
 						class="init-animate zoomIn post-181 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
 						<div class="content-wrapper">
@@ -205,14 +160,17 @@
 							</div>
 							<div class="entry-content ">
 								<div class="entry-header-title">
-									<h3 class="entry-title"> DATE A LIVE </h3>
+									<h3 class="entry-title"><?= $result['posts_title'] ?></h3>
 								</div>
-								<div class="details"> Wordpress 4.9.x nói về Anime Date a live </div>
+								<div class="details"> <?= $result['posts_present'] ?> </div>
 							</div><!-- .entry-content -->
 						</div>
 					</article><!-- #post-## -->
 				</div>
 				<!--dynamic css-->
+
+				<?php endforeach; ?>
+
 			</div>
 			<!--featured entries-col-->
 			<div class="row">
@@ -330,8 +288,7 @@
 				<div class="at-gallery-item  col-xs-12 col-md-3">
 					<div class="gallery-inner-item init-animate zoomIn">
 						<div class="at-bottom-lower">
-							<h3>
-								States Building </h3>
+							<h3> Bài viết dịch </h3>
 							<a class="image-gallery-widget"
 								href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/glass-items-3339972_1920.jpg">
 								<i class="fa fa-search gallery-button primary-bg"></i>
