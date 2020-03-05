@@ -123,5 +123,5 @@
         </main><!-- #main -->
     </div><!-- #primary -->
 
-    <?php require_once 'block/widget.ctp'; ?>
+    <?php include_once('block\widget.ctp'); ?>
 </div><!-- #content -->
