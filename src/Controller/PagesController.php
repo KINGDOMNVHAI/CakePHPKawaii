@@ -31,11 +31,10 @@ class PagesController extends AppController
 
     public function display()
     {
-        $connection = ConnectionManager::get('default');
-        $results = $connection->execute('SELECT * FROM posts ORDER BY posts_updateat DESC LIMIT 6')->fetchAll('assoc');
-        
+        $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong app_local -> Datasources -> default
+        $results = $connection->execute('SELECT * FROM posts ORDER BY posts_update_at DESC LIMIT 6')->fetchAll('assoc');
         // dd($results[0][posts_title]);
-        
+
         $this->set(['title' => 'Home', 'results' => $results]);
 
         $this->render('SitePage/home');

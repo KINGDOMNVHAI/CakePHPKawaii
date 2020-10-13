@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="footer-sidebar col-sm-3 init-animate zoomIn">
                     <aside id="text-7" class="widget widget_text">
-                        <h3 class="widget-title"><span>About</span></h3>
+                        <h3 class="widget-title"><span>Về KINGDOM NVHAI</span></h3>
                         <div class="textwidget">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                         </div>
@@ -28,16 +28,11 @@
                 </div>
                 <div class="footer-sidebar col-sm-3 init-animate zoomIn">
                     <aside id="nav_menu-3" class="widget widget_nav_menu">
-                        <h3 class="widget-title"><span>Quick Links</span></h3>
+                        <h3 class="widget-title"><span>Website khác</span></h3>
                         <div class="menu-premium-themes-container">
                             <ul id="menu-premium-themes" class="menu">
-                                <li id="menu-item-317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-317">
-                                    <a href="https://www.acmethemes.com/themes/construction-field-pro">Construction Field Pro</a>
-                                </li>
-                                <li id="menu-item-318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318"><a href="https://www.acmethemes.com/themes/online-shop-pro/">Online Shop Pro</a></li>
-                                <li id="menu-item-319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319"><a href="https://www.acmethemes.com/themes/medical-circle-pro/">Medical Circle Pro</a></li>
-                                <li id="menu-item-320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-320"><a href="https://www.acmethemes.com/themes/education-base-pro/">Education Base Pro</a></li>
-                                <li id="menu-item-321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-321"><a href="https://www.acmethemes.com/themes/event-star-pro/">Event Star Pro</a></li>
+                                <li id="menu-item-318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318"><a href="http://kingdomnvhai.info/" title="KINGDOM NVHAI">NEWS KINGDOM NVHAI</a></li>
+                                <li id="menu-item-319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319"><a href="http://datealive.kingdomnvhai.info/">DATE A LIVE</a></li>
                             </ul>
                         </div>
                     </aside>

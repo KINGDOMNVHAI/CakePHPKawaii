@@ -47,32 +47,43 @@
         <div class="at-beside-navbar-header">
             <div class="main-navigation navbar-collapse collapse">
                 <ul id="primary-menu" class="nav navbar-nav  acme-normal-page">
+                    <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">Ngôn ngữ lập trình</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24">
+                                <a href="<?= $_SERVER['REQUEST_URI']; ?>blog/php">PHP</a>
+                            </li>
+                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/javascript">JavaScript</a></li>
+                            <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/html-css">HTML CSS</a></li>
+                            <li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/java">Java</a></li>
+                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/sql">SQL</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">Framework</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24">
+                                <a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/laravel">Laravel</a>
+                            </li>
+                            <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
+                                <a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/cakephp">CakePHP</a>
+                            </li>
+                            <li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/android">Android</a></li>
+                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/angular">Angular</a></li>
+                            <!-- <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/pixijs">PixiJS</a></li>
+                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/java-spring">Java Spring</a></li> -->
+                        </ul>
+                    </li>
+                    <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">IDE - Website học lập trình</a>
+                    <ul class="sub-menu">
+                            <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24">
+                                <a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/codewars">Codewars</a>
+                            </li>
+                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/hackthissite">hackthissite.org</a></li>
+                            <!-- <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="/blog/">HTML CSS</a></li>
+                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="/blog/java">Java</a></li> -->
+                        </ul>
+                    </li>
                     <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-23">
-                        <a href="/demo">Demo</a>
-                    </li>
-                    <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">Tool - IDE Guide</a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24"><a href="/blog">PHP</a></li>
-                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="../apartment-house//blog">JavaScript</a></li>
-                            <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="../architectural-design//blog">Left Sidebar</a></li>
-                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="../big-bugets-for-startup//blog">Both Sidebar</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">Ngôn ngữ - thuật toán</a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24"><a href="index.html">PHP</a></li>
-                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="../apartment-house/index.html">JavaScript</a></li>
-                            <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="../architectural-design/index.html">Left Sidebar</a></li>
-                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="../big-bugets-for-startup/index.html">Both Sidebar</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">Kinh nghiệm</a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24"><a href="index.html">PHP</a></li>
-                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="../apartment-house/index.html">JavaScript</a></li>
-                            <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="../architectural-design/index.html">Left Sidebar</a></li>
-                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="../big-bugets-for-startup/index.html">Both Sidebar</a></li>
-                        </ul>
+                        <a href="/blog/tam-su">Tâm sự</a>
                     </li>
                 </ul>
             </div><!--/.nav-collapse -->
@@ -84,8 +95,23 @@
     <div class="container">
         <header class="entry-header init-animate">
             <h1 class="page-title">Blog</h1>
-            <div class='breadcrumbs init-animate'><div id='construction-field-breadcrumbs'><div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2" /><meta name="itemListOrder" content="Ascending" />
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin">
-            <a href="../index.html" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="item"><span itemprop="name">Blog</span></span><meta itemprop="position" content="2" /></li></ul></div></div></div>                </header><!-- .entry-header -->
+            <div class='breadcrumbs init-animate'>
+                <div id='construction-field-breadcrumbs'>
+                    <div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
+                        <ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList">
+                            <meta name="numberOfItems" content="2" /><meta name="itemListOrder" content="Ascending" />
+                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin">
+                                <a href="../index.html" rel="home" itemprop="item"><span itemprop="name">Home</span></a>
+                                <meta itemprop="position" content="1" />
+                            </li>
+                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end">
+                                <span itemprop="item"><span itemprop="name">Blog</span></span>
+                                <meta itemprop="position" content="2" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header><!-- .entry-header -->
     </div>
 </div>
