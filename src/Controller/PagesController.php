@@ -27,22 +27,37 @@ class PagesController extends AppController
     {
         parent::initialize();
         $this->viewbuilder()->layout('main'); // Không tạo viewbuilder thì mặc định dẫn đến default.ctp
+
+        $this->domains = $_SERVER['REQUEST_URI'];
+        // Đưa lên host, thử thay thế các biến sau cho phù hợp.
+        // REQUEST_URI
+        // SERVER_NAME
+        // HTTP_HOST
     }
 
     public function display()
     {
         $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong app_local -> Datasources -> default
-        $results = $connection->execute('SELECT * FROM posts ORDER BY posts_update_at DESC LIMIT 6')->fetchAll('assoc');
+        $results = $connection->execute('SELECT * FROM posts ORDER BY post_update_at DESC LIMIT 12')->fetchAll('assoc');
         // dd($results[0][posts_title]);
 
-        $this->set(['title' => 'Home', 'results' => $results]);
+        $this->set(['title' => 'Home', 'results' => $results, 'domains' => $this->domains]);
 
         $this->render('SitePage/home');
     }
 
     public function blog()
     {
-        $this->set('title', 'Blog');
+        $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong app_local -> Datasources -> default
+        $results = $connection->execute('SELECT * FROM posts WHERE post_cat_id = 12 ORDER BY post_update_at DESC LIMIT 12')->fetchAll('assoc');
+
+
+
+
+
+        $this->domains = "/CakePHPKawaii/";
+
+        $this->set(['title' => 'Blog', 'results' => $results, 'domains' => $this->domains]);
 
         $this->render('SitePage/blog');
     }

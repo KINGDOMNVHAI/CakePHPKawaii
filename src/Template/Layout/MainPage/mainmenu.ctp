@@ -50,40 +50,40 @@
                     <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">Ngôn ngữ lập trình</a>
                         <ul class="sub-menu">
                             <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24">
-                                <a href="<?= $_SERVER['REQUEST_URI']; ?>blog/php">PHP</a>
+                                <a href="<?= $domains ?>blog/php">PHP</a>
                             </li>
-                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/javascript">JavaScript</a></li>
-                            <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/html-css">HTML CSS</a></li>
-                            <li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/java">Java</a></li>
-                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/sql">SQL</a></li>
+                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $domains ?>/blog/javascript">JavaScript</a></li>
+                            <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="<?= $domains ?>/blog/html-css">HTML CSS</a></li>
+                            <li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="<?= $domains ?>/blog/java">Java</a></li>
+                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="<?= $domains ?>/blog/sql">SQL</a></li>
                         </ul>
                     </li>
                     <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">Framework</a>
                         <ul class="sub-menu">
                             <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24">
-                                <a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/laravel">Laravel</a>
+                                <a href="<?= $domains ?>/blog/laravel">Laravel</a>
                             </li>
                             <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
-                                <a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/cakephp">CakePHP</a>
+                                <a href="<?= $domains ?>/blog/cakephp">CakePHP</a>
                             </li>
-                            <li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/android">Android</a></li>
-                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/angular">Angular</a></li>
-                            <!-- <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/pixijs">PixiJS</a></li>
-                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/java-spring">Java Spring</a></li> -->
+                            <li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="<?= $domains ?>/blog/android">Android</a></li>
+                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $domains ?>/blog/angular">Angular</a></li>
+                            <!-- <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="<?= $domains ?>/blog/pixijs">PixiJS</a></li>
+                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="<?= $domains ?>/blog/java-spring">Java Spring</a></li> -->
                         </ul>
                     </li>
                     <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-297"><a href="#">IDE - Website học lập trình</a>
                     <ul class="sub-menu">
                             <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item current_page_parent menu-item-24">
-                                <a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/codewars">Codewars</a>
+                                <a href="<?= $domains ?>/blog/codewars">Codewars</a>
                             </li>
-                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $_SERVER['REQUEST_URI']; ?>/blog/hackthissite">hackthissite.org</a></li>
+                            <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="<?= $domains ?>/blog/hackthissite">hackthissite.org</a></li>
                             <!-- <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="/blog/">HTML CSS</a></li>
                             <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="/blog/java">Java</a></li> -->
                         </ul>
                     </li>
                     <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-23">
-                        <a href="/blog/tam-su">Tâm sự</a>
+                        <a href="<?= $domains ?>/blog/kinh-nghiem">Kinh nghiệm</a>
                     </li>
                 </ul>
             </div><!--/.nav-collapse -->

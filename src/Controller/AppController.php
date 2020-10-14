@@ -58,36 +58,48 @@ class AppController extends Controller
     public function migrateposts()
     {
         $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong config/app -> Datasources -> default
-        $truncate = $connection->execute('TRUNCATE demo');
+        $truncate = $connection->execute('TRUNCATE posts');
 
-        $articles = TableRegistry::getTableLocator()->get('demo'); // sử dụng table nào, dùng TableRegistry get table đó
+        $articles = TableRegistry::getTableLocator()->get('posts'); // sử dụng table nào, dùng TableRegistry get table đó
 
         // Start a new query.
         $query = $articles->find();
-        $query->insert(['demo_id', 'demo_title', 'demo_present', 'demo_url', 'demo_content'])
+        $query->insert(['post_id', 'post_title', 'post_url', 'post_present', 'post_content', 'post_thumbnail', 'post_cat_id', 'post_update_at', 'post_home', 'post_enable'])
             ->values([
-                'demo_title'    => 'Đáp án Codewars Kyu 8',
-                'demo_present'  => 'Level dành cho những ai mới bắt đầu vào Codewars',
-                'demo_url'      => 'dap-an-codewars-kyu-8',
-                'demo_content'  => 'Some body text'
+                'post_title'        => 'Đáp án Codewars Kyu 8',
+                'post_url'          => 'dap-an-codewars-kyu-8',
+                'post_present'      => 'Level dành cho những ai mới bắt đầu vào Codewars',
+                'post_content'      => 'Some body text',
+                'post_thumbnail'    => 'codewars-kyu-8-results-thumbnail.jpg',
+                'post_cat_id'       => 12,
+                'post_update_at'    => date("Y-m-d"),
             ])
             ->values([
-                'demo_title'    => 'Đáp án Codewars Kyu 7',
-                'demo_present'  => 'Level bắt buộc phải có của sinh viên năm cuối khi chơi Codewars',
-                'demo_url'      => 'dap-an-codewars-kyu-7',
-                'demo_content'  => 'Some body text'
+                'post_title'        => 'Đáp án Codewars Kyu 7',
+                'post_url'          => 'dap-an-codewars-kyu-7',
+                'post_present'      => 'Level bắt buộc phải có của sinh viên năm cuối khi chơi Codewars',
+                'post_content'      => 'Some body text',
+                'post_thumbnail'    => 'codewars-kyu-7-results-thumbnail.jpg',
+                'post_cat_id'       => 12,
+                'post_update_at'    => date("Y-m-d"),
             ])
             ->values([
-                'demo_title'    => 'Đáp án Codewars Kyu 6',
-                'demo_present'  => 'Level đạt được sẽ chứng tỏ bạn đã cứng ngôn ngữ',
-                'demo_url'      => 'dap-an-codewars-kyu-6',
-                'demo_content'  => 'Some body text'
+                'post_title'        => 'Đáp án Codewars Kyu 6',
+                'post_url'          => 'dap-an-codewars-kyu-6',
+                'post_present'      => 'Level đạt được sẽ chứng tỏ bạn đã cứng ngôn ngữ',
+                'post_content'      => 'Some body text',
+                'post_thumbnail'    => 'codewars-kyu-6-results-thumbnail.jpg',
+                'post_cat_id'       => 12,
+                'post_update_at'    => date("Y-m-d"),
             ])
             ->values([
-                'demo_title'    => 'Sếp "mới dậy thì"',
-                'demo_present'  => 'Đây là giai đoạn 1 nhân viên tập trở thành sếp, cũng là lúc bạn sẽ thấy tác dụng của việc làm việc nhóm trong trường.',
-                'demo_url'      => 'Some body text',
-                'demo_content'  => 'Some body text'
+                'post_title'        => 'Sếp "mới dậy thì"',
+                'post_url'          => 'sep-moi-day-thi',
+                'post_present'      => 'Đây là giai đoạn 1 nhân viên tập trở thành sếp, cũng là lúc bạn sẽ thấy tác dụng của việc làm việc nhóm trong trường.',
+                'post_content'      => 'Some body text',
+                'post_thumbnail'    => 'sep-moi-day-thi-thumbnail.jpg',
+                'post_cat_id'       => 14,
+                'post_update_at'    => date("Y-m-d"),
             ])
             ->execute();
 
@@ -103,14 +115,62 @@ class AppController extends Controller
 
         // Start a new query.
         $query = $articles->find();
-        $query->insert(['id_cat', 'title_cat', 'url_cat'])
+        $query->insert(['cat_id', 'cat_title', 'cat_url'])
             ->values([
-                'title_cat' => 'Codewars',
-                'url_cat'   => 'codewars',
+                'cat_title' => 'PHP',
+                'cat_url'   => 'php',
             ])
             ->values([
-                'title_cat' => 'Tâm sự',
-                'url_cat'   => 'tam-su',
+                'cat_title' => 'JavaScript',
+                'cat_url'   => 'javascript',
+            ])
+            ->values([
+                'cat_title' => 'HTML CSS',
+                'cat_url'   => 'html-css',
+            ])
+            ->values([
+                'cat_title' => 'Java',
+                'cat_url'   => 'java',
+            ])
+            ->values([
+                'cat_title' => 'SQL',
+                'cat_url'   => 'sql',
+            ])
+            ->values([
+                'cat_title' => 'Laravel',
+                'cat_url'   => 'laravel',
+            ])
+            ->values([
+                'cat_title' => 'CakePHP',
+                'cat_url'   => 'cakephp',
+            ])
+            ->values([
+                'cat_title' => 'Android',
+                'cat_url'   => 'android',
+            ])
+            ->values([
+                'cat_title' => 'Angular',
+                'cat_url'   => 'angular',
+            ])
+            ->values([
+                'cat_title' => 'PixiJS',
+                'cat_url'   => 'pixijs',
+            ])
+            ->values([
+                'cat_title' => 'Java Spring',
+                'cat_url'   => 'java-spring',
+            ])
+            ->values([
+                'cat_title' => 'Codewars',
+                'cat_url'   => 'codewars',
+            ])
+            ->values([
+                'cat_title' => 'hackthissite.org',
+                'cat_url'   => 'hackthissite',
+            ])
+            ->values([
+                'cat_title' => 'Kinh nghiệm',
+                'cat_url'   => 'kinh-nghiem',
             ])
             ->execute();
 

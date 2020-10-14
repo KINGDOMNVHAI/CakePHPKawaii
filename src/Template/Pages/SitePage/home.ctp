@@ -60,129 +60,6 @@
     </section>
 </aside>
 
-<aside id="construction_field_posts_col-3" class="widget widget_construction_field_posts_col">
-	<section id="construction_field_posts_col-3" class="at-widgets acme-col-posts ">
-		<div class="container">
-			<div class='at-widget-title-wrapper'>
-				<div class='at-cat-color-wrap-9'>
-					<h2 class="widget-title init-animate zoomIn"><span>Bài viết mới nhất</span></h2>
-				</div>
-			</div>
-			<div class="featured-entries-col column">
-				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
-					<article id="post-188"
-						class="init-animate zoomIn post-188 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-						<div class="content-wrapper">
-							<div class="image-wrap">
-								<!--post thumbnail options-->
-								<div class="post-thumb">
-									<img width="640" height="427"
-										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-1024x683.jpg"
-										class="attachment-large size-large wp-post-image" alt=""
-										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-768x512.jpeg 768w"
-										sizes="(max-width: 640px) 100vw, 640px" />
-								</div><!-- .post-thumb-->
-							</div>
-							<div class="entry-content ">
-								<div class="entry-header-title">
-									<h3 class="entry-title">NEWS KINGDOM NVHAI</h3>
-								</div>
-								<div class="details"> Laravel 5.5 viết về 4 chủ đề: Website - Mạng Xã Hội, Anime - Manga, Game và Thủ Thuật IT. Được ra mắt vào năm 2015, đây là trang web đầu tiên của KINGDOM NVHAI.</div>
-							</div><!-- .entry-content -->
-						</div>
-					</article><!-- #post-## -->
-				</div>
-				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
-					<article id="post-186"
-						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-						<div class="content-wrapper">
-							<div class="image-wrap">
-								<!--post thumbnail options-->
-								<div class="post-thumb">
-									<img width="640" height="427"
-										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
-										class="attachment-large size-large wp-post-image" alt=""
-										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
-										sizes="(max-width: 640px) 100vw, 640px" />
-								</div><!-- .post-thumb-->
-							</div>
-							<div class="entry-content ">
-								<div class="entry-header-title">
-									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
-								</div>
-								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
-							</div><!-- .entry-content -->
-						</div>
-					</article><!-- #post-## -->
-				</div>
-				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
-					<article id="post-186"
-						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-						<div class="content-wrapper">
-							<div class="image-wrap">
-								<!--post thumbnail options-->
-								<div class="post-thumb">
-									<img width="640" height="427"
-										src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
-										class="attachment-large size-large wp-post-image" alt=""
-										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w"
-										sizes="(max-width: 640px) 100vw, 640px" />
-								</div><!-- .post-thumb-->
-							</div>
-							<div class="entry-content ">
-								<div class="entry-header-title">
-									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
-								</div>
-								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
-							</div><!-- .entry-content -->
-						</div>
-					</article><!-- #post-## -->
-				</div>
-
-				<?php foreach ($results as $result): ?>
-
-				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
-					<article id="post-181"
-						class="init-animate zoomIn post-181 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-						<div class="content-wrapper">
-							<div class="image-wrap">
-								<!--post thumbnail options-->
-								<div class="post-thumb">
-									<img width="640" height="427"
-										src="wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg"
-										class="attachment-large size-large wp-post-image" alt=""
-										srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-914931-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-914931-768x512.jpeg 768w"
-										sizes="(max-width: 640px) 100vw, 640px" />
-								</div><!-- .post-thumb-->
-							</div>
-							<div class="entry-content ">
-								<div class="entry-header-title">
-									<h3 class="entry-title"><?= $result['posts_title'] ?></h3>
-								</div>
-								<div class="details"> <?= $result['posts_present'] ?> </div>
-							</div><!-- .entry-content -->
-						</div>
-					</article><!-- #post-## -->
-				</div>
-				<!--dynamic css-->
-
-				<?php endforeach; ?>
-
-			</div>
-			<!--featured entries-col-->
-			<div class="row">
-				<div class="at-btn-wrap at-view-all-widget"><a href="blog/index.html"
-						class="init-animate zoomIn btn btn-primary outline-outward banner-btn">View More</a>
-				</div>
-			</div>
-		</div>
-	</section>
-</aside>
-
-
 <aside id="construction_field_gallery-3" class="widget widget_construction_field_gallery">
     <section id="construction_field_gallery-3" class="at-widgets acme-gallery">
         <div class="full-width-container">
@@ -307,4 +184,77 @@
             <!--row-->
         </div>
     </section>
+</aside>
+
+<aside id="construction_field_posts_col-3" class="widget widget_construction_field_posts_col">
+	<section id="construction_field_posts_col-3" class="at-widgets acme-col-posts ">
+		<div class="container">
+			<div class='at-widget-title-wrapper'>
+				<div class='at-cat-color-wrap-9'>
+					<h2 class="widget-title init-animate zoomIn"><span>Bài viết mới nhất</span></h2>
+				</div>
+			</div>
+			<div class="featured-entries-col column">
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
+					<article id="post-186"
+						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt=""
+										srcset="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg 1024w,
+                                        <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg 300w,
+                                        <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg 768w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
+								</div>
+								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+
+				<?php foreach ($results as $result): ?>
+
+				<!--dynamic css-->
+				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
+					<article id="post-181"
+						class="init-animate zoomIn post-181 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+						<div class="content-wrapper">
+							<div class="image-wrap">
+								<!--post thumbnail options-->
+								<div class="post-thumb">
+									<img width="640" height="427"
+										src="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg"
+										class="attachment-large size-large wp-post-image" alt="<?= $result['post_title'] ?>"
+										srcset="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 1024w,
+                                        <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 768w,
+                                        <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 300w"
+										sizes="(max-width: 640px) 100vw, 640px" />
+								</div><!-- .post-thumb-->
+							</div>
+							<div class="entry-content ">
+								<div class="entry-header-title">
+									<h3 class="entry-title"><?= $result['post_title'] ?></h3>
+								</div>
+								<div class="details"> <?= $result['post_present'] ?> </div>
+							</div><!-- .entry-content -->
+						</div>
+					</article><!-- #post-## -->
+				</div>
+				<!--dynamic css-->
+
+				<?php endforeach; ?>
+
+			</div>
+		</div>
+	</section>
 </aside>
