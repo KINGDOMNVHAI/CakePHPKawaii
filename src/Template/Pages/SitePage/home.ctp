@@ -70,60 +70,6 @@
                 <div class="at-gallery-item  col-xs-12 col-md-3">
                     <div class="gallery-inner-item init-animate zoomIn">
                         <div class="at-bottom-lower">
-                            <h3> Skyfall Tower </h3>
-                            <a class="image-gallery-widget" href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/glass-items-3339972_1920.jpg">
-                                <i class="fa fa-search gallery-button primary-bg"></i>
-                            </a>
-                        </div>
-                        <div class="at-gallery-hover"></div>
-                        <img src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/glass-items-3339972_1920-1024x683.jpg"
-                            alt="Skyfall Tower" title="Skyfall Tower" />
-                    </div>
-                </div>
-                <div class="at-gallery-item  col-xs-12 col-md-3">
-                    <div class="gallery-inner-item init-animate zoomIn">
-                        <div class="at-bottom-lower">
-                            <h3>Industry </h3>
-                            <a class="image-gallery-widget"
-                                href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/construction-site-3124294_1920-1.jpg">
-                                <i class="fa fa-search gallery-button primary-bg"></i>
-                            </a>
-                        </div>
-                        <div class="at-gallery-hover"></div>
-                        <img src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/construction-site-3124294_1920-1-1024x683.jpg"
-                            alt="Industry" title="Industry" />
-                    </div>
-                </div>
-                <div class="at-gallery-item  col-xs-12 col-md-3">
-                    <div class="gallery-inner-item init-animate zoomIn">
-                        <div class="at-bottom-lower">
-                            <h3>City </h3>
-                            <a class="image-gallery-widget"
-                                href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/park-2693078_1920.jpg">
-                                <i class="fa fa-search gallery-button primary-bg"></i>
-                            </a>
-                        </div>
-                        <div class="at-gallery-hover"></div>
-                        <img src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/park-2693078_1920-1024x683.jpg" alt="City"
-                            title="City" />
-                    </div>
-                </div>
-                <div class="at-gallery-item  col-xs-12 col-md-3">
-                    <div class="gallery-inner-item init-animate zoomIn">
-                        <div class="at-bottom-lower">
-                            <h3>Apartment House </h3>
-                            <a class="image-gallery-widget" href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/construction.jpg">
-                                <i class="fa fa-search gallery-button primary-bg"></i>
-                            </a>
-                        </div>
-                        <div class="at-gallery-hover"></div>
-                        <img src="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/construction-1024x683.jpg" alt="Apartment House"
-                            title="Apartment House" />
-                    </div>
-                </div>
-                <div class="at-gallery-item  col-xs-12 col-md-3">
-                    <div class="gallery-inner-item init-animate zoomIn">
-                        <div class="at-bottom-lower">
                             <h3>
                                 Big bugets for startup </h3>
                             <a class="image-gallery-widget"
@@ -139,8 +85,7 @@
                 <div class="at-gallery-item  col-xs-12 col-md-3">
                     <div class="gallery-inner-item init-animate zoomIn">
                         <div class="at-bottom-lower">
-                            <h3>
-                                Light House </h3>
+                            <h3>Light House </h3>
                             <a class="image-gallery-widget" href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/light-house.jpg">
                                 <i class="fa fa-search gallery-button primary-bg"></i>
                             </a>
@@ -153,8 +98,7 @@
                 <div class="at-gallery-item  col-xs-12 col-md-3">
                     <div class="gallery-inner-item init-animate zoomIn">
                         <div class="at-bottom-lower">
-                            <h3>
-                                Longest Building </h3>
+                            <h3>Longest Building </h3>
                             <a class="image-gallery-widget"
                                 href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/architecture-3338007_1920.jpg">
                                 <i class="fa fa-search gallery-button primary-bg"></i>
@@ -168,8 +112,7 @@
                 <div class="at-gallery-item  col-xs-12 col-md-3">
                     <div class="gallery-inner-item init-animate zoomIn">
                         <div class="at-bottom-lower">
-                            <h3>
-                                States Building </h3>
+                            <h3>States Building </h3>
                             <a class="image-gallery-widget"
                                 href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/glass-items-3339972_1920.jpg">
                                 <i class="fa fa-search gallery-button primary-bg"></i>
@@ -195,32 +138,6 @@
 				</div>
 			</div>
 			<div class="featured-entries-col column">
-				<!--dynamic css-->
-				<div class="single-list col-sm-12 col-md-4" style="min-height:450px;">
-					<article id="post-186"
-						class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-						<div class="content-wrapper">
-							<div class="image-wrap">
-								<!--post thumbnail options-->
-								<div class="post-thumb">
-									<img width="640" height="427"
-										src="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg"
-										class="attachment-large size-large wp-post-image" alt=""
-										srcset="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg 1024w,
-                                        <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg 300w,
-                                        <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg 768w"
-										sizes="(max-width: 640px) 100vw, 640px" />
-								</div><!-- .post-thumb-->
-							</div>
-							<div class="entry-content ">
-								<div class="entry-header-title">
-									<h3 class="entry-title"> KINGDOM PLAYBACK </h3>
-								</div>
-								<div class="details"> Video website đăng những video bị cấm hoặc vi phạm bản quyền trên Youtube. </div>
-							</div><!-- .entry-content -->
-						</div>
-					</article><!-- #post-## -->
-				</div>
 
 				<?php foreach ($results as $result): ?>
 
@@ -231,6 +148,7 @@
 						<div class="content-wrapper">
 							<div class="image-wrap">
 								<!--post thumbnail options-->
+                                <a href="<?= $domains ?>post/<?= $result['post_url'] ?>">
 								<div class="post-thumb">
 									<img width="640" height="427"
 										src="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg"
@@ -240,6 +158,7 @@
                                         <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 300w"
 										sizes="(max-width: 640px) 100vw, 640px" />
 								</div><!-- .post-thumb-->
+                                </a>
 							</div>
 							<div class="entry-content ">
 								<div class="entry-header-title">

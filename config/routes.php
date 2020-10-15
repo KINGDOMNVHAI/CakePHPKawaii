@@ -66,9 +66,9 @@ Router::scope('/', function (RouteBuilder $routes) {
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
-    $routes->connect('/blog/*', ['controller' => 'Pages', 'action' => 'blog']);
-    $routes->connect('/post/', ['controller' => 'Pages', 'action' => 'post']);
-    $routes->connect('/demo/*', ['controller' => 'Pages', 'action' => 'demo']);
+    $routes->connect('/blog/:url', ['controller' => 'Pages', 'action' => 'blog']);
+    $routes->connect('/post/:url', ['controller' => 'Pages', 'action' => 'post']);
+    // $routes->connect('/demo/*', ['controller' => 'Pages', 'action' => 'demo']);
 
     $routes->connect('/migrate-posts', ['controller' => 'App', 'action' => 'migrateposts']);
     $routes->connect('/migrate-categories', ['controller' => 'App', 'action' => 'migratecategories']);

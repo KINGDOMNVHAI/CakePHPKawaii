@@ -4,30 +4,17 @@
             <div class="col-sm-6 text-left">
                 <div class='at-first-level-nav at-display-inline-block text-right'>
                     <ul id="menu-top-menu" class="menu">
-                        <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-36"><a href="../index.html">Home</a></li>
-                        <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="../about/index.html">About</a></li>
-                        <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="../contact/index.html">Contact</a></li>
+                        <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-36"><a href="http://kingdomnvhai.info/" title="KINGDOM NVHAI" target="_blank">NEWS KINGDOM NVHAI</a></li>
+                        <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://datealive.kingdomnvhai.info/" title="KINGDOM NVHAI" target="_blank">DATE A LIVE</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-6 text-right">
+            <!-- <div class="col-sm-6 text-right">
                 <ul class="socials at-display-inline-block">
                     <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
-                <div class="top-header-latest-posts at-display-inline-block">
-                    <div class="bn-title at-display-inline-block">News :</div>
-                    <div class="news-notice-content at-display-inline-block">
-                        <span class="news-content">
-                            <a href="2018/04/24/hello-world/index.html" title="Hello world!">
-                                Hello world!
-                            </a>
-                        </span>
-                    </div>
-                </div> <!-- .header-latest-posts -->
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

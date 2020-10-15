@@ -30,11 +30,12 @@
         <section id="recent-posts-2" class="widget widget_recent_entries">
             <h2 class="widget-title">Bài viết đề xuất</h2>
             <ul>
-                <li><a href="2018/04/24/caring-for-construction/index.html">Caring for construction</a></li>
-                <li><a href="2018/04/24/young-engineers/index.html">Young engineers</a></li>
-                <li><a href="2018/04/24/prepare-for-room-painting/index.html">Prepare for room painting</a></li>
-                <li><a href="2018/04/24/top-building-in-dubai/index.html">Top building in Dubai</a></li>
-                <li><a href="2018/04/24/long-bridge/index.html">Long Bridge</a></li>
+                <li>
+                    <a href="2018/04/24/caring-for-construction/index.html">Caring for construction</a>
+                </li>
+                <li>
+                    <a href="2018/04/24/young-engineers/index.html">Young engineers</a>
+                </li>
             </ul>
         </section>
     </div>

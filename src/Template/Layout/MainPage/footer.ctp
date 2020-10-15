@@ -31,8 +31,8 @@
                         <h3 class="widget-title"><span>Website khác</span></h3>
                         <div class="menu-premium-themes-container">
                             <ul id="menu-premium-themes" class="menu">
-                                <li id="menu-item-318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318"><a href="http://kingdomnvhai.info/" title="KINGDOM NVHAI">NEWS KINGDOM NVHAI</a></li>
-                                <li id="menu-item-319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319"><a href="http://datealive.kingdomnvhai.info/">DATE A LIVE</a></li>
+                                <li id="menu-item-318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318"><a href="http://kingdomnvhai.info/" title="KINGDOM NVHAI" target="_blank">NEWS KINGDOM NVHAI</a></li>
+                                <li id="menu-item-319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319"><a href="http://datealive.kingdomnvhai.info/" title="KINGDOM NVHAI" target="_blank">DATE A LIVE</a></li>
                             </ul>
                         </div>
                     </aside>
@@ -81,14 +81,18 @@
                                 </div><!--featured entries-col-->
                             </div>
                         </section>
-                    </aside><div class='clearfix'></div>                                </div>
+                    </aside>
+                    <div class='clearfix'></div>
+                </div>
                 <div class="footer-sidebar col-sm-3 init-animate zoomIn">
-                    <aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widget-title"><span>Tag Clouds</span></h3><div class="tagcloud"><a href="category/blog/index.html" class="tag-cloud-link tag-link-9 tag-link-position-1" style="font-size: 22pt;" aria-label="Blog (3 items)">Blog</a>
+                    <aside id="tag_cloud-3" class="widget widget_tag_cloud">
+                        <h3 class="widget-title"><span>Tag Clouds</span></h3>
+                        <div class="tagcloud">
+                            <a href="category/blog/index.html" class="tag-cloud-link tag-link-9 tag-link-position-1" style="font-size: 22pt;" aria-label="Blog (3 items)">Blog</a>
                             <a href="category/bridge/index.html" class="tag-cloud-link tag-link-6 tag-link-position-2" style="font-size: 8pt;" aria-label="Bridge (1 item)">Bridge</a>
                             <a href="category/building/index.html" class="tag-cloud-link tag-link-5 tag-link-position-3" style="font-size: 22pt;" aria-label="Building (3 items)">Building</a>
                             <a href="category/road/index.html" class="tag-cloud-link tag-link-8 tag-link-position-4" style="font-size: 8pt;" aria-label="Road (1 item)">Road</a>
-                            <a href="category/tunnel/index.html" class="tag-cloud-link tag-link-7 tag-link-position-5" style="font-size: 8pt;" aria-label="Tunnel (1 item)">Tunnel</a>
-                            <a href="category/uncategorized/index.html" class="tag-cloud-link tag-link-1 tag-link-position-6" style="font-size: 8pt;" aria-label="Uncategorized (1 item)">Uncategorized</a></div>
+                        </div>
                     </aside>
                 </div>
             </div>
@@ -101,7 +105,8 @@
                 <div class="col-sm-6 init-animate">
                     <div class="footer-copyright text-left">
                         <p class="at-display-inline-block">
-                            &copy; All right reserved                                    </p>
+                            &copy; All right reserved
+                        </p>
                         <div class="site-info at-display-inline-block">Construction Field Pro by <a href="http://www.acmethemes.com/" rel="designer">Acme Themes</a></div><!-- .site-info -->                            </div>
                 </div>
                 <div class="col-sm-6 init-animate">

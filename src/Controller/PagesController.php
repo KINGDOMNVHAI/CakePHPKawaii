@@ -7,6 +7,8 @@ use Cake\Datasource\ConnectionManager;
 use Cake\Http\Exception\ForbiddenException;
 use Cake\Http\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
+use Cake\ORM\Query;
+use Cake\ORM\TableRegistry;
 
 /**
  * Tên Controller là Pages, tự động dẫn đến thư mục Template/Pages
@@ -49,10 +51,26 @@ class PagesController extends AppController
     public function blog()
     {
         $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong app_local -> Datasources -> default
+
+        $urlCat = $this->request['url'];
+
         $results = $connection->execute('SELECT * FROM posts WHERE post_cat_id = 12 ORDER BY post_update_at DESC LIMIT 12')->fetchAll('assoc');
 
 
 
+        $articles = TableRegistry::getTableLocator()->get('posts'); // sử dụng table nào, dùng TableRegistry get table đó
+
+        // Start a new query.
+        $query = $articles
+        ->find()
+        ->innerJoinWith('categories')
+        ->select([
+            'posts.post_title', 'posts.post_url', 'posts.post_present', 'posts.post_content', 'posts.post_update_at', 'posts.post_cat_id',
+            'categories.cat_url'
+            ])
+        ->where(['posts.post_cat_id like ' => $urlCat])
+        ->where(['categories.cat_url like ' => $urlCat])
+        ->toArray();
 
 
         $this->domains = "/CakePHPKawaii/";
@@ -71,7 +89,21 @@ class PagesController extends AppController
 
     public function post()
     {
-        $this->set('title', 'post');
+        $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong app_local -> Datasources -> default
+
+        $urlPost = $this->request['url'];
+        $articles = TableRegistry::getTableLocator()->get('posts'); // sử dụng table nào, dùng TableRegistry get table đó
+
+        // Start a new query.
+        $query = $articles
+        ->find()
+        ->select(['post_title', 'post_url', 'post_present', 'post_content', 'post_update_at'])
+        ->where(['post_url like ' => $urlPost])
+        ->first();
+
+        $this->domains = "/CakePHPKawaii/";
+
+        $this->set(['title' => 'Post', 'results' => $query, 'domains' => $this->domains]);
 
         $this->render('SitePage/post');
     }
