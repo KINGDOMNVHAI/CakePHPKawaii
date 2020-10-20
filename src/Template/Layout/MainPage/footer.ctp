@@ -2,11 +2,12 @@
     <div class="footer-columns at-fixed-width">
         <div class="container">
             <div class="row">
-                <div class="footer-sidebar col-sm-3 init-animate zoomIn">
+                <div class="footer-sidebar col-sm-4 init-animate zoomIn">
                     <aside id="text-7" class="widget widget_text">
                         <h3 class="widget-title"><span>Về KINGDOM NVHAI</span></h3>
                         <div class="textwidget">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <p>KINGDOM NVHAI là hệ thống website, kênh Youtube về Game, Anime - Manga, VTuber, thủ thuật IT, viết bài về lập trình.
+                            Được thành lập vào ngày 1/7/2015, KINGDOM NVHAI đã có một số lượng thành viên ủng hộ nhất định.</p>
                         </div>
                     </aside>
                     <aside id="construction_field_social-3" class="widget widget_construction_field_social">
@@ -14,19 +15,17 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-12 init-animate zoomIn">
-                                        <ul class="socials at-display-inline-block">
+                                        <!-- <ul class="socials at-display-inline-block">
                                             <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                             <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                 </div>
                             </div>
                         </section>
                     </aside>
                 </div>
-                <div class="footer-sidebar col-sm-3 init-animate zoomIn">
+                <div class="footer-sidebar col-sm-4 init-animate zoomIn">
                     <aside id="nav_menu-3" class="widget widget_nav_menu">
                         <h3 class="widget-title"><span>Website khác</span></h3>
                         <div class="menu-premium-themes-container">
@@ -37,54 +36,7 @@
                         </div>
                     </aside>
                 </div>
-                <div class="footer-sidebar col-sm-3 init-animate zoomIn">
-                    <aside id="construction_field_posts_col-5" class="widget widget_construction_field_posts_col">
-                        <section id="construction_field_posts_col-5" class="at-widgets acme-col-posts ">
-                            <div class="container">
-                                <div class='at-widget-title-wrapper'><div class='at-cat-color-wrap-9'><h3 class="widget-title"><span>Latest Posts</span></h3></div></div>                        <div class="featured-entries-col column">
-                                    <div class="single-list col-sm-12 col-md-3">
-                                        <article id="post-188" class="init-animate zoomIn post-188 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-                                            <div class="content-wrapper">
-                                                <div class="image-wrap">
-                                                    <!--post thumbnail options-->
-                                                    <div class="post-thumb">
-                                                        <img width="640" height="427" src="../wp-content/uploads/2018/04/construction-site-build-construction-work-159306-1024x683.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/construction-site-build-construction-work-159306-768x512.jpeg 768w" sizes="(max-width: 640px) 100vw, 640px" />
-                                                    </div><!-- .post-thumb-->
-                                                </div>
-                                                <div class="entry-content ">
-                                                    <div class="entry-header-title">
-                                                        <h3 class="entry-title">Caring for construction</h3>
-                                                    </div>
-                                                    <div class="details">Lorem ipsum dolor sit amet,... </div>
-                                                </div><!-- .entry-content -->
-                                            </div>
-                                        </article><!-- #post-## -->
-                                    </div><!--dynamic css-->
-                                    <div class="single-list col-sm-12 col-md-3">
-                                        <article id="post-186" class="init-animate zoomIn post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
-                                            <div class="content-wrapper">
-                                                <div class="image-wrap">
-                                                    <!--post thumbnail options-->
-                                                    <div class="post-thumb">
-                                                        <img width="640" height="427" src="../wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-1024x683.jpeg 1024w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-300x200.jpeg 300w, http://demo.acmethemes.com/construction-field-pro/wp-content/uploads/2018/04/pexels-photo-960761-768x512.jpeg 768w" sizes="(max-width: 640px) 100vw, 640px" />
-                                                    </div><!-- .post-thumb-->
-                                                </div>
-                                                <div class="entry-content ">
-                                                    <div class="entry-header-title">
-                                                        <h3 class="entry-title">Young engineers</h3>
-                                                    </div>
-                                                    <div class="details">Lorem ipsum dolor sit amet,...</div>
-                                                </div><!-- .entry-content -->
-                                            </div>
-                                        </article><!-- #post-## -->
-                                    </div><!--dynamic css-->
-                                </div><!--featured entries-col-->
-                            </div>
-                        </section>
-                    </aside>
-                    <div class='clearfix'></div>
-                </div>
-                <div class="footer-sidebar col-sm-3 init-animate zoomIn">
+                <div class="footer-sidebar col-sm-4 init-animate zoomIn">
                     <aside id="tag_cloud-3" class="widget widget_tag_cloud">
                         <h3 class="widget-title"><span>Tag Clouds</span></h3>
                         <div class="tagcloud">
@@ -104,12 +56,12 @@
             <div class="row">
                 <div class="col-sm-6 init-animate">
                     <div class="footer-copyright text-left">
-                        <p class="at-display-inline-block">
-                            &copy; All right reserved
-                        </p>
-                        <div class="site-info at-display-inline-block">Construction Field Pro by <a href="http://www.acmethemes.com/" rel="designer">Acme Themes</a></div><!-- .site-info -->                            </div>
+                        <div class="site-info at-display-inline-block">
+                        <p class="at-display-inline-block">&copy; giao diện của </p> <a href="http://www.acmethemes.com/" target="_blank">Acme Themes</a>
+                        </div><!-- .site-info -->
+                    </div>
                 </div>
-                <div class="col-sm-6 init-animate">
+                <!-- <div class="col-sm-6 init-animate">
                     <div class='at-first-level-nav text-right'>
                         <ul id="menu-footer-menu" class="menu">
                             <li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="#">Privacy Policy</a></li>
@@ -118,7 +70,7 @@
                             <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="../services/index.html">Services</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <a href="#page" class="sm-up-container"><i class="fa fa-angle-up sm-up"></i></a>

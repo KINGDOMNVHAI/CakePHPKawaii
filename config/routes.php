@@ -70,7 +70,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/post/:url', ['controller' => 'Pages', 'action' => 'post']);
     // $routes->connect('/demo/*', ['controller' => 'Pages', 'action' => 'demo']);
 
-    $routes->connect('/migrate-posts', ['controller' => 'App', 'action' => 'migrateposts']);
+    $routes->connect('/migrate-posts',      ['controller' => 'App', 'action' => 'migrateposts']);
     $routes->connect('/migrate-categories', ['controller' => 'App', 'action' => 'migratecategories']);
 
     /**

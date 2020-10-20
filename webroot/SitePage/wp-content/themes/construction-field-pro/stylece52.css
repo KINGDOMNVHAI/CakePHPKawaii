@@ -277,9 +277,8 @@ h5{
 h6{
 	font-size: 12px;
 }
-ul,
-ol {
-	margin: 0 0 1.5em 3em;
+ul, ol {
+	margin: 0 0 0 0;
 }
 ul {
 	list-style: disc;

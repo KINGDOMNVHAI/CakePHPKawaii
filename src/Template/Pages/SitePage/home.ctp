@@ -149,18 +149,18 @@
 							<div class="image-wrap">
 								<!--post thumbnail options-->
                                 <a href="<?= $domains ?>post/<?= $result['post_url'] ?>">
-								<div class="post-thumb">
-									<img width="640" height="427"
-										src="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg"
-										class="attachment-large size-large wp-post-image" alt="<?= $result['post_title'] ?>"
-										srcset="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 1024w,
-                                        <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 768w,
-                                        <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 300w"
-										sizes="(max-width: 640px) 100vw, 640px" />
-								</div><!-- .post-thumb-->
+                                    <div class="post-thumb">
+                                        <img width="640" height="427"
+                                            src="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg"
+                                            class="attachment-large size-large wp-post-image" alt="<?= $result['post_title'] ?>"
+                                            srcset="<?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 1024w,
+                                            <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 768w,
+                                            <?= $domains ?>SitePage/wp-content/uploads/2018/04/pexels-photo-914931-1024x683.jpg 300w"
+                                            sizes="(max-width: 640px) 100vw, 640px" />
+                                    </div><!-- .post-thumb-->
                                 </a>
 							</div>
-							<div class="entry-content ">
+							<div class="entry-content">
 								<div class="entry-header-title">
 									<h3 class="entry-title"><?= $result['post_title'] ?></h3>
 								</div>
