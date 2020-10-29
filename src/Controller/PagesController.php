@@ -66,11 +66,13 @@ class PagesController extends AppController
         ->innerJoinWith('categories')
         ->select([
             'posts.post_title', 'posts.post_url', 'posts.post_present', 'posts.post_content', 'posts.post_update_at', 'posts.post_cat_id',
-            'categories.cat_url'
-            ])
-        ->where(['posts.post_cat_id like ' => $urlCat])
+            'categories.cat_id', 'categories.cat_url'
+        ])
+        ->where(['posts.post_cat_id = categories.cat_id'])
         ->where(['categories.cat_url like ' => $urlCat])
         ->toArray();
+
+        dd($query);
 
 
         $this->domains = "/CakePHPKawaii/";

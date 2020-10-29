@@ -1342,7 +1342,7 @@ i.slick-arrow{
 	-moz-transition:all 0.2s ease-in-out 0s;
 }
 .comment-form .form-submit input{
-	color: #ffffff;	
+	color: #ffffff;
 	-moz-osx-font-smoothing: grayscale;
 	backface-visibility: hidden;
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -2549,6 +2549,9 @@ article.page .entry-content {
 .entry-content li > ul,
 .entry-content li > ol {
 	margin-left: 1.5em;
+}
+.entry-content img {
+	margin: 2px 0 2px 0;
 }
 /*article post test start*/
 article.post,

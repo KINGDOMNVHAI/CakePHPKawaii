@@ -15,7 +15,7 @@
                         <h3 class="title"> Nội dung </h3>
                         <div class="content">
                             <div class="details">
-                                <p>Hướng dẫn lập trình, làm demo và download sản phẩm của NVHAI tự làm.</p>
+                                <p>Hướng dẫn lập trình, làm demo và download sản phẩm của Kawaiicode tự làm.</p>
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                         <h3 class="title"> Mục tiêu </h3>
                         <div class="content">
                             <div class="details">
-                                <p>Hướng dẫn mọi người, đặc biệt là các bạn sinh viên mới tất cả kinh nghiệm, kiến thức của NVHAI có được.</p>
+                                <p>Hướng dẫn mọi người, đặc biệt là các bạn sinh viên mới tất cả kinh nghiệm, kiến thức của Kawaiicode có được.</p>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                         <h3 class="title"> Chuyên môn </h3>
                         <div class="content">
                             <div class="details">
-                                <p>NVHAI chuyên về lập trình web PHP, JavaScript, Java. Ngoài ra còn có hứng thú với designer và SEO.</p>
+                                <p>Kawaiicode chuyên về lập trình web PHP, JavaScript, Java. Ngoài ra còn có hứng thú với designer và SEO.</p>
                             </div>
                         </div>
                     </div>
@@ -70,8 +70,7 @@
                 <div class="at-gallery-item  col-xs-12 col-md-3">
                     <div class="gallery-inner-item init-animate zoomIn">
                         <div class="at-bottom-lower">
-                            <h3>
-                                Big bugets for startup </h3>
+                            <h3>Big bugets for startup </h3>
                             <a class="image-gallery-widget"
                                 href="<?= $_SERVER['REQUEST_URI']; ?>SitePage/wp-content/uploads/2018/04/scaffold-3328434_1920.jpg">
                                 <i class="fa fa-search gallery-button primary-bg"></i>

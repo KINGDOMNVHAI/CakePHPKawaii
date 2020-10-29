@@ -72,6 +72,9 @@
                     <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-23">
                         <a href="<?= $domains ?>/blog/kinh-nghiem">Kinh nghiệm</a>
                     </li>
+                    <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-23">
+                        <a href="<?= $domains ?>/blog/kien-thuc-khac">Kiến thức khác</a>
+                    </li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
