@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <?php include_once('MainPage\head.ctp'); ?>
+    <?php include_once('MainPage/head.ctp'); ?>
 </head>
 <body class="blog wp-custom-logo left-logo-right-menu acme-animate right-sidebar absolute hfeed">
         <div class="site" id="page">
             <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-            <?php include_once('MainPage\mainmenu.ctp'); ?>
+            <?php include_once('MainPage/mainmenu.ctp'); ?>
 
 			<!-- ====== Change Content  ====== -->
 
@@ -17,7 +17,7 @@
 
             <div class="clearfix"></div>
 
-            <?php include_once('MainPage\footer.ctp'); ?>
+            <?php include_once('MainPage/footer.ctp'); ?>
 
         </div><!-- #page -->
         <script type='text/javascript'>

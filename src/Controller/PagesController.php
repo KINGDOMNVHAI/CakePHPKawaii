@@ -28,7 +28,7 @@ class PagesController extends AppController
     public function initialize()
     {
         parent::initialize();
-        $this->viewbuilder()->layout('main'); // Không tạo viewbuilder thì mặc định dẫn đến default.ctp
+        $this->viewbuilder()->setLayout('main'); // Không tạo viewbuilder thì mặc định dẫn đến default.ctp
 
         $this->domains = $_SERVER['REQUEST_URI'];
         // Đưa lên host, thử thay thế các biến sau cho phù hợp.
@@ -40,10 +40,15 @@ class PagesController extends AppController
     public function display()
     {
         $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong app_local -> Datasources -> default
-        $results = $connection->execute('SELECT * FROM posts ORDER BY post_update_at DESC LIMIT 12')->fetchAll('assoc');
+        $results = $connection->execute('SELECT * FROM posts ORDER BY post_update_at DESC LIMIT 20')->fetchAll('assoc');
         // dd($results[0][posts_title]);
 
-        $this->set(['title' => 'Home', 'results' => $results, 'domains' => $this->domains]);
+        $this->set([
+            'title' => 'Home',
+            'breadcrumb' => 'home',
+            'results' => $results,
+            'domains' => $this->domains
+            ]);
 
         $this->render('SitePage/home');
     }
@@ -52,7 +57,7 @@ class PagesController extends AppController
     {
         $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong app_local -> Datasources -> default
 
-        $urlCat = $this->request['url'];
+        $urlCat = $this->request->getParam('url');
 
         $results = $connection->execute('SELECT * FROM posts WHERE post_cat_id = 12 ORDER BY post_update_at DESC LIMIT 12')->fetchAll('assoc');
 
@@ -77,7 +82,12 @@ class PagesController extends AppController
 
         $this->domains = "/CakePHPKawaii/";
 
-        $this->set(['title' => 'Blog', 'results' => $results, 'domains' => $this->domains]);
+        $this->set([
+            'title' => 'Blog',
+            'breadcrumb' => 'blog',
+            'results' => $results,
+            'domains' => $this->domains
+        ]);
 
         $this->render('SitePage/blog');
     }
@@ -93,7 +103,7 @@ class PagesController extends AppController
     {
         $connection = ConnectionManager::get('default');  // get('default') là lấy thông tin kết nối trong app_local -> Datasources -> default
 
-        $urlPost = $this->request['url'];
+        $urlPost = $this->request->getParam('url');
         $articles = TableRegistry::getTableLocator()->get('posts'); // sử dụng table nào, dùng TableRegistry get table đó
 
         // Start a new query.
@@ -105,7 +115,12 @@ class PagesController extends AppController
 
         $this->domains = "/CakePHPKawaii/";
 
-        $this->set(['title' => 'Post', 'results' => $query, 'domains' => $this->domains]);
+        $this->set([
+            'title' => 'Post',
+            'breadcrumb' => 'post',
+            'results' => $query,
+            'domains' => $this->domains
+        ]);
 
         $this->render('SitePage/post');
     }

@@ -23,12 +23,7 @@
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
             <a href="/" class="custom-logo-link" rel="home" itemprop="url">
-            <?= $this->Html->image('/SitePage/wp-content/uploads/2018/04/constructionfield-pro-logo.gif', [
-                'alt' => 'CakePHP',
-                'class' => 'custom-logo',
-                'width' => 187,
-                'height' => 29,
-                ]); ?>
+                <img width="180px" src="<?= $domains ?>SitePage/kawaiicode-logo.png" alt="kawaiicode" />
             </a>
         </div>
         <div class="at-beside-navbar-header">
@@ -81,9 +76,11 @@
         <!--.at-beside-navbar-header-->
     </div>
 </div>
+
 <div class="wrapper inner-main-title">
     <div class="container">
         <header class="entry-header init-animate">
+            <?php if ($breadcrumb != 'home') { ?>
             <h1 class="page-title">Blog</h1>
             <div class='breadcrumbs init-animate'>
                 <div id='construction-field-breadcrumbs'>
@@ -102,6 +99,8 @@
                     </div>
                 </div>
             </div>
+            <?php } ?>
         </header><!-- .entry-header -->
     </div>
 </div>
+

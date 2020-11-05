@@ -23,5 +23,5 @@
         </main><!-- #main -->
     </div><!-- #primary -->
 
-    <?php include_once('block\widget.ctp'); ?>
+    <?php include_once('block/widget.ctp'); ?>
 </div><!-- #content -->

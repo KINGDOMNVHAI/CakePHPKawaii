@@ -25,41 +25,34 @@
     }
 </style>
 
-<?=
-    $this->Html->css([
-    '/SitePage/wp-includes/css/dist/block-library/style.mince52.css?ver=5.0.2',
-    '/SitePage/wp-content/plugins/contact-form-7/includes/css/styles3c21.css?ver=5.1.1',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/bootstrap/css/bootstrap.mine485.css?ver=3.3.6',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/Font-Awesome/css/font-awesome.min268f.css?ver=4.5.0',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/slick/slick3ba1.css?ver=1.3.3',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/magnific-popup/magnific-popupf488.css?ver=1.1.0',
-    '/SitePage/wp-content/themes/construction-field-pro/stylece52.css?ver=5.0.2',
-    ]);
-?>
+<link rel='stylesheet' href='/SitePage/wp-includes/css/dist/block-library/style.mince52.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' href='/SitePage/wp-content/plugins/contact-form-7/includes/css/styles3c21.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' href='/SitePage/wp-content/themes/construction-field-pro/assets/library/bootstrap/css/bootstrap.mine485.css?ver=3.3.6' type='text/css' media='all' />
+<link rel='stylesheet' href='/SitePage/wp-content/themes/construction-field-pro/assets/library/Font-Awesome/css/font-awesome.min268f.css?ver=4.5.0' type='text/css' media='all' />
+<link rel='stylesheet' href='/SitePage/wp-content/themes/construction-field-pro/assets/library/slick/slick3ba1.css?ver=1.3.3' type='text/css' media='all' />
+<link rel='stylesheet' href='/SitePage/wp-content/themes/construction-field-pro/assets/library/magnific-popup/magnific-popupf488.css?ver=1.1.0' type='text/css' media='all' />
+<link rel='stylesheet' href='/SitePage/wp-content/themes/construction-field-pro/stylece52.css?ver=5.0.2' type='text/css' media='all' />
+
 <link rel='stylesheet' id='construction-field-googleapis-css'  href='http://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900ifonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i' type='text/css' media='all' />
 
-<?=
-    $this->Html->script([
-    '/SitePage/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4',
-    '/SitePage/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/js/construction-field-custom97de.js?ver=1.0.5',
-    '/SitePage/wp-includes/js/wp-embed.mince52.js?ver=5.0.2',
-    '/SitePage/wp-content/plugins/contact-form-7/includes/js/scripts3c21.js?ver=5.1.1',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/slick/slick.mincfa9.js?ver=1.1.2',
-    '/SitePage/wp-content/themes/construction-field-pro/acmethemes/core/js/skip-link-focus-fix08e0.js?ver=20130115',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/bootstrap/js/bootstrap.mine485.js?ver=3.3.6',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/wow/js/wow.mincfa9.js?ver=1.1.2',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/magnific-popup/jquery.magnific-popup.minf488.js?ver=1.1.0',
-    '/SitePage/wp-content/themes/construction-field-pro/assets/library/isotop/isotope.pkgd41fe.js?ver=3.0.1',
-    '/SitePage/wp-includes/js/imagesloaded.min55a0.js?ver=3.2.0',
-    '/SitePage/wp-includes/js/masonry.mind617.js?ver=3.3.2',
-    ], ['block' => 'scriptBottom']);
-?>
+<script type='text/javascript' src='/SitePage/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/SitePage/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript' src='/SitePage/wp-content/themes/construction-field-pro/assets/js/construction-field-custom97de.js?ver=1.0.5'></script>
+<script type='text/javascript' src='/SitePage/wp-includes/js/wp-embed.mince52.js?ver=5.0.2'></script>
+<script type='text/javascript' src='/SitePage/wp-content/plugins/contact-form-7/includes/js/scripts3c21.js?ver=5.1.1'></script>
+<script type='text/javascript' src='/SitePage/wp-content/themes/construction-field-pro/assets/library/slick/slick.mincfa9.js?ver=1.1.2'></script>
+<script type='text/javascript' src='/SitePage/wp-content/themes/construction-field-pro/acmethemes/core/js/skip-link-focus-fix08e0.js?ver=20130115'></script>
+<script type='text/javascript' src='/SitePage/wp-content/themes/construction-field-pro/assets/library/bootstrap/js/bootstrap.mine485.js?ver=3.3.6'></script>
+<script type='text/javascript' src='/SitePage/wp-content/themes/construction-field-pro/assets/library/wow/js/wow.mincfa9.js?ver=1.1.2'></script>
+<script type='text/javascript' src='/SitePage/wp-content/themes/construction-field-pro/assets/library/magnific-popup/jquery.magnific-popup.minf488.js?ver=1.1.0'></script>
+<script type='text/javascript' src='/SitePage/wp-content/themes/construction-field-pro/assets/library/isotop/isotope.pkgd41fe.js?ver=3.0.1'></script>
+<script type='text/javascript' src='/SitePage/wp-includes/js/imagesloaded.min55a0.js?ver=3.2.0'></script>
+<script type='text/javascript' src='/SitePage/wp-includes/js/masonry.mind617.js?ver=3.3.2'></script>
 
 <style id='construction-field-style-inline-css' type='text/css'>
 
     .inner-main-title {
-        background-image:url("SitePage/wp-content/themes/construction-field-pro/assets/img/bobcat.jpg");
+        background-image:url("/SitePage/wp-content/themes/construction-field-pro/assets/img/Japanese-Transparent-Background.jpg");
         background-repeat:no-repeat;
         background-size:cover;
         background-attachment:fixed;
@@ -291,8 +284,5 @@
     }
 </style>
 
-<link rel='https://api.w.org/' href="<?= $_SERVER['REQUEST_URI']; ?>/SitePage/wp-json/index.html" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?= $_SERVER['REQUEST_URI']; ?>/SitePage/wp-includes/wlwmanifest.xml" />
-<meta name="generator" content="WordPress 5.0.2" />
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>

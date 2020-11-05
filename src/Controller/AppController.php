@@ -754,11 +754,7 @@ Có 5 số 1, vậy nghĩa là cộng tất cả các chữ số 1 và 0 lại b
 
 <p>Vì vậy, sếp lớn sẽ không bao giờ bỏ qua vấn đề: người mới nghỉ việc sau 2 tháng thử việc. Dù lý do là người mới "không đáp ứng được công việc" đi nữa, việc người mới không làm việc được với bạn là điều đáng để sếp lớn lưu tâm. Sếp lớn sẽ thắc mắc cách training, cách làm việc với cấp dưới, người mới của bạn có vấn đề. Chắc chắn bạn sẽ không thể lên chức cao nếu tỉ lệ người mới làm việc với bạn không phù hợp ngày càng gia tăng.</p>
 
-<p>Riêng ngành lập trình, có rất nhiều công ty có nhân sự làm việc với thâm niên rất cao, trên 5 năm, 10 năm. Nhưng cũng có những công ty nổi tiếng với việc nhân sự ra vào liên tục đến mức họ chán, chẳng thèm bắt chuyện làm quen nhau vì biết chắc mối quan hệ không lâu dài.</p>
-
-<center><img src="/webroot/upload/kinhnghiem/KG-technology-1.jpg" alt="K&G Technology" width="60%" />
-
-<p>K&G tại Phú Mỹ Hưng là công ty có nhiều nhân sự thâm niên cao nhất KINGDOM NVHAI từng biết. <br>Rất nhiều người làm 7 năm, 10 năm trở lên. Ngôn ngữ chính là PHP.</p></center>
+<p>Riêng ngành lập trình, có rất nhiều công ty có nhân sự làm việc với thâm niên rất cao, trên 5 năm, 10 năm. Nhưng cũng có những công ty nổi tiếng với việc nhân sự ra vào liên tục đến mức họ chẳng muốn bắt chuyện làm quen nhau vì biết chắc mối quan hệ không lâu dài.</p>
 
 <p>Về phần các bạn sinh viên hay những ai làm việc với sếp "mới dậy thì", hãy bình tĩnh và thông cảm vì họ cũng đang phải loay hoay với chức vụ mới, cương vị mới. Phải mất ít nhất là 1-2 năm mới làm quen được.</p>
 ',
